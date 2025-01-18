@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,red,blue);
+}
+
+.container
+{
+    width:25%;
+    min-height:300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 20px;
+    background-color: white;
+    flex-direction: column;
+}
+h1,h2{
+    font-family: sans-serif;
+}
+@media screen and (max-width:480px)
+{
+    .container
+    {
+        width: 95%;
+        padding: 15px;
+    }
+}
